@@ -5,7 +5,7 @@
 <p align="center">
   📑 <a href="<!-- PAPER_LINK -->">Paper (coming soon)</a> &nbsp;|&nbsp;
   🏷️ <a href="LICENSE">MIT&nbsp;License</a> &nbsp;|&nbsp;
-  📝 <a href="TABLES.md">Tables</a> &nbsp;|&nbsp;
+  📝 <a href="TABLES.md">Full Results</a> &nbsp;|&nbsp;
   🖼️ <a href="FRAMEWORK.md">Framework</a>
 </p>
 
@@ -74,7 +74,7 @@ But this additional context may trigger **over-refusals**, cases where models re
 
 <p align="center">
   🔍  These heat-maps are just <strong>summaries</strong>.
-  See the full-size tables in <a href="TABLES.md"><code>TABLES.md</code></a>.
+  See the full-size tables in <a href="TABLES.md"><code>Full Results</code></a>.
 </p>
 
 ---
