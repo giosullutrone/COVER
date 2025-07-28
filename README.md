@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  📑 <a href="<!-- PAPER_LINK -->">Paper (coming soon)</a> &nbsp;|&nbsp;
+  📑 <a href="https://aclanthology.org/2025.findings-acl.1243.pdf">Paper</a> &nbsp;|&nbsp;
   📝 <a href="TABLES.md">Full Results</a> &nbsp;|&nbsp;
   🖼️ <a href="FRAMEWORK.md">Framework</a>
   🏷️ <a href="LICENSE">MIT&nbsp;License</a> &nbsp;|&nbsp;
