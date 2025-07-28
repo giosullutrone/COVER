@@ -124,12 +124,24 @@ python -u questioned_to_results.py \
 Paper, DOI and BibTeX will be added once the ACL 2025 anthology page goes live. Stay tuned!
 
 ```bibtex
-@inproceedings{Sullutrone2025cover,
-  title     = {COVER: Context‑Driven Over‑Refusal Verification in LLMs},
-  author    = {Giovanni Sullutrone and Riccardo Amerigo Vigliermo and Sonia Bergamaschi and Luca Sala},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2025},
-  url       = {TBD}
+@inproceedings{sullutrone-etal-2025-cover,
+    title = "{COVER}: Context-Driven Over-Refusal Verification in {LLM}s",
+    author = "Sullutrone, Giovanni  and
+      Vigliermo, Riccardo A.  and
+      Bergamaschi, Sonia  and
+      Sala, Luca",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1243/",
+    pages = "24214--24229",
+    ISBN = "979-8-89176-256-5"
 }
 ```
 
