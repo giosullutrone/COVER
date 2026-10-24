@@ -2,11 +2,11 @@ import os
 import json
 import dataclasses
 from typing import Callable, Any
-from refusal_benchmark.dataclass.collections_dataclasses import (
+from dataclass.collections_dataclasses import (
     Collection,
     QuestionCollection,
 )
-from refusal_benchmark.dataclass.results_dataclasses import Results
+from dataclass.results_dataclasses import Results
 import functools
 import copy
 

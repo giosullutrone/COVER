@@ -1,4 +1,4 @@
-from refusal_benchmark.dataclass.collections_dataclasses import (
+from dataclass.collections_dataclasses import (
     Collection,
     QuestionCollection,
     Text,

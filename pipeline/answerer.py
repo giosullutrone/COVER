@@ -1,14 +1,14 @@
-from refusal_benchmark.dataclass.collections_dataclasses import (
+from dataclass.collections_dataclasses import (
     QuestionCollection,
 )
-from refusal_benchmark.dataclass.results_dataclasses import Result, Results
-from refusal_benchmark.pipeline.handler import QuestionCollectionHandler
-from refusal_benchmark.model.assistant import Assistant
-from refusal_benchmark.utils import with_deepcopy_of_collection
+from dataclass.results_dataclasses import Result, Results
+from pipeline.handler import QuestionCollectionHandler
+from model.assistant import Assistant
+from utils import with_deepcopy_of_collection
 from tqdm import tqdm
 import copy
 
-from refusal_benchmark.prompts.utils import is_question_task, generate_task_combinations
+from prompts.utils import is_question_task, generate_task_combinations
 
 
 class CollectionAnswerer(QuestionCollectionHandler):

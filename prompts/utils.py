@@ -1,5 +1,5 @@
-from refusal_benchmark.prompts.systems import SystemType
-from refusal_benchmark.prompts.tasks import TaskType
+from prompts.systems import SystemType
+from prompts.tasks import TaskType
 from copy import deepcopy
 
 

@@ -1,8 +1,8 @@
 import os
 import json
-from refusal_benchmark.dataclass.collections_dataclasses import Text, Collection
+from dataclass.collections_dataclasses import Text, Collection
 from typing import List
-from refusal_benchmark.dataset.dataset import Dataset
+from dataset.dataset import Dataset
 
 
 class Sefaria(Dataset):

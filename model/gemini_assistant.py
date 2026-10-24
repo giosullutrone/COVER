@@ -1,10 +1,10 @@
 import os
-from refusal_benchmark.model.closed_assistant import ClosedAssistant
+from model.closed_assistant import ClosedAssistant
 from typing_extensions import override
 from google import genai
 from google.genai import types
-from refusal_benchmark.dataclass.refusal_enums import RefusalType
-import refusal_benchmark.logging_config as logging_config
+from dataclass.refusal_enums import RefusalType
+import logging_config
 
 
 class GeminiAssistant(ClosedAssistant):

@@ -2,8 +2,8 @@ import os
 from collections import defaultdict
 
 from datasets import load_dataset
-from refusal_benchmark.dataclass.collections_dataclasses import Text, Collection
-from refusal_benchmark.dataset.dataset import Dataset
+from dataclass.collections_dataclasses import Text, Collection
+from dataset.dataset import Dataset
 
 
 class RagBench(Dataset):

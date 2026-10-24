@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from dataclasses_json import dataclass_json
-from refusal_benchmark.dataclass.collections_dataclasses import QuestionCollection
-from refusal_benchmark.model.assistant import Assistant
+from dataclass.collections_dataclasses import QuestionCollection
+from model.assistant import Assistant
 from typing import Any
 
 

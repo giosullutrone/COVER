@@ -1,6 +1,6 @@
-from refusal_benchmark.dataclass.results_dataclasses import Results
-from refusal_benchmark.pipeline.handler import CollectionHandler
-from refusal_benchmark.utils import with_deepcopy_of_results
+from dataclass.results_dataclasses import Results
+from pipeline.handler import CollectionHandler
+from utils import with_deepcopy_of_results
 
 
 class ResultsStats(CollectionHandler):

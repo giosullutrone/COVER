@@ -2,13 +2,13 @@ import os
 import argparse
 import time
 from vllm import SamplingParams
-from refusal_benchmark.model.vllm_assistant import VLLMAssistant
-from refusal_benchmark.utils import conditional_create_results, load_collection
-from refusal_benchmark.pipeline.answerer import CollectionAnswerer
-from refusal_benchmark.pipeline.refusal_classifier import CollectionRefusalClassifier
+from model.vllm_assistant import VLLMAssistant
+from utils import conditional_create_results, load_collection
+from pipeline.answerer import CollectionAnswerer
+from pipeline.refusal_classifier import CollectionRefusalClassifier
 from tqdm import tqdm
 from parameters import PARAMETERS_OFFLINE, PARAMETERS_ONLINE
-from refusal_benchmark.pipeline.results_stats import ResultsStats
+from pipeline.results_stats import ResultsStats
 
 
 if __name__ == "__main__":

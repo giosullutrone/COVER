@@ -87,7 +87,8 @@ But this additional context may trigger **over-refusals**, cases where models re
 git clone https://github.com/giosullutrone/COVER.git
 cd COVER
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+# torch, torchaudio and torchvision are pinned to CUDA 12.1 wheels
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
 ````
 
 ### 2. Generate Question–Context Pairs
@@ -121,7 +122,7 @@ python -u questioned_to_results.py \
 
 ## 🔖 Citation
 
-Paper, DOI and BibTeX will be added once the ACL 2025 anthology page goes live. Stay tuned!
+If you use COVER, please cite the Findings of ACL 2025 paper:
 
 ```bibtex
 @inproceedings{sullutrone-etal-2025-cover,

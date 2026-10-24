@@ -1,7 +1,7 @@
-from refusal_benchmark.model.closed_assistant import ClosedAssistant
+from model.closed_assistant import ClosedAssistant
 from typing import List, Optional, Any, Union
 from openai import OpenAI
-from refusal_benchmark.dataclass.refusal_enums import RefusalType
+from dataclass.refusal_enums import RefusalType
 
 
 class OpenAIAssistant(ClosedAssistant):

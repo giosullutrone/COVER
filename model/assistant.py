@@ -1,12 +1,12 @@
 import re
 from typing import Any
-from refusal_benchmark.prompts.pipeline import (
+from prompts.pipeline import (
     get_answer_classification_prompts,
     get_passage_classification_prompts,
     get_question_generation_prompts,
 )
-from refusal_benchmark.dataclass.refusal_enums import RefusalType
-import refusal_benchmark.logging_config as logging_config
+from dataclass.refusal_enums import RefusalType
+import logging_config
 
 
 class Assistant:

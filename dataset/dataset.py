@@ -1,4 +1,4 @@
-from refusal_benchmark.dataclass.collections_dataclasses import Collection
+from dataclass.collections_dataclasses import Collection
 
 
 class Dataset:

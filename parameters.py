@@ -1,8 +1,8 @@
 from vllm import SamplingParams
-from refusal_benchmark.model.vllm_assistant import VLLMAssistant
-from refusal_benchmark.model.gemini_assistant import GeminiAssistant
-from refusal_benchmark.model.openai_assistant import OpenAIAssistant
-from refusal_benchmark.dataclass.results_dataclasses import Parameters
+from model.vllm_assistant import VLLMAssistant
+from model.gemini_assistant import GeminiAssistant
+from model.openai_assistant import OpenAIAssistant
+from dataclass.results_dataclasses import Parameters
 from google.genai import types
 
 temperature = 0.7

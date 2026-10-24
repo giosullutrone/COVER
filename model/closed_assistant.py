@@ -1,9 +1,9 @@
-from refusal_benchmark.model.assistant import Assistant
+from model.assistant import Assistant
 from typing_extensions import override
 from tqdm import tqdm
 from concurrent.futures import Future, ThreadPoolExecutor
 import time
-import refusal_benchmark.logging_config as logging_config
+import logging_config
 
 
 class ClosedAssistant(Assistant):

@@ -1,6 +1,6 @@
-from refusal_benchmark.dataclass.results_dataclasses import Results
-from refusal_benchmark.pipeline.handler import QuestionCollectionHandler
-from refusal_benchmark.model.assistant import Assistant
+from dataclass.results_dataclasses import Results
+from pipeline.handler import QuestionCollectionHandler
+from model.assistant import Assistant
 
 
 class CollectionRefusalClassifier(QuestionCollectionHandler):

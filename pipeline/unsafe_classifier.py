@@ -1,8 +1,8 @@
-from refusal_benchmark.model.assistant import Assistant
-from refusal_benchmark.dataclass.collections_dataclasses import Collection
-from refusal_benchmark.pipeline.handler import CollectionHandler
-from refusal_benchmark.prompts.utils import generate_classification_combinations
-from refusal_benchmark.utils import with_deepcopy_of_collection
+from model.assistant import Assistant
+from dataclass.collections_dataclasses import Collection
+from pipeline.handler import CollectionHandler
+from prompts.utils import generate_classification_combinations
+from utils import with_deepcopy_of_collection
 from tqdm import tqdm
 
 

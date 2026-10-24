@@ -1,9 +1,9 @@
-from refusal_benchmark.dataclass.collections_dataclasses import (
+from dataclass.collections_dataclasses import (
     Question,
     QuestionCollection,
 )
-from refusal_benchmark.pipeline.handler import CollectionHandler
-from refusal_benchmark.utils import with_deepcopy_of_collection
+from pipeline.handler import CollectionHandler
+from utils import with_deepcopy_of_collection
 import random
 
 

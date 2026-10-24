@@ -1,8 +1,8 @@
 import os
 import csv
-from refusal_benchmark.dataclass.collections_dataclasses import Text, Collection
+from dataclass.collections_dataclasses import Text, Collection
 from typing import List
-from refusal_benchmark.dataset.dataset import Dataset
+from dataset.dataset import Dataset
 
 
 class HadithCorpus(Dataset):

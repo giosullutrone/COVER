@@ -1,13 +1,13 @@
 import os
 from typing_extensions import override
-from refusal_benchmark.model.assistant import Assistant
+from model.assistant import Assistant
 from typing import List, Optional, Any, Union
 from transformers import AutoTokenizer
 from vllm import LLM, RequestOutput
 import torch
 import gc
 from transformers import PretrainedConfig
-import refusal_benchmark.logging_config as logging_config
+import logging_config
 
 
 class VLLMAssistant(Assistant):

@@ -1,22 +1,22 @@
 import os
 import argparse
 from vllm import SamplingParams
-from refusal_benchmark.model.vllm_assistant import VLLMAssistant
-from refusal_benchmark.utils import conditional_create_collection
-from refusal_benchmark.pipeline.filter import CollectionFilter
-from refusal_benchmark.pipeline.unsafe_classifier import CollectionUnsafeClassifier
-from refusal_benchmark.pipeline.to_question_collection import ToQuestionCollection
-from refusal_benchmark.dataset.hadith_corpus import HadithCorpus
-from refusal_benchmark.dataset.sefaria import Sefaria
-from refusal_benchmark.pipeline.stats import CollectionStats
+from model.vllm_assistant import VLLMAssistant
+from utils import conditional_create_collection
+from pipeline.filter import CollectionFilter
+from pipeline.unsafe_classifier import CollectionUnsafeClassifier
+from pipeline.to_question_collection import ToQuestionCollection
+from dataset.hadith_corpus import HadithCorpus
+from dataset.sefaria import Sefaria
+from pipeline.stats import CollectionStats
 from transformers import AutoTokenizer
 from tqdm import tqdm
-from refusal_benchmark.pipeline.chunker import CollectionChunker
-from refusal_benchmark.pipeline.question_sampler import QuestionCollectionSampler
-from refusal_benchmark.pipeline.sampler import CollectionSampler
-from refusal_benchmark.pipeline.question_unsafe_only import QuestionCollectionUnsafeOnly
-from refusal_benchmark.pipeline.questioner import CollectionQuestioner
-from refusal_benchmark.dataset.msmarco import MSMarco
+from pipeline.chunker import CollectionChunker
+from pipeline.question_sampler import QuestionCollectionSampler
+from pipeline.sampler import CollectionSampler
+from pipeline.question_unsafe_only import QuestionCollectionUnsafeOnly
+from pipeline.questioner import CollectionQuestioner
+from dataset.msmarco import MSMarco
 
 
 if __name__ == "__main__":

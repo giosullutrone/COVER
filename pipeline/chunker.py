@@ -1,7 +1,7 @@
 from copy import deepcopy
-from refusal_benchmark.dataclass.collections_dataclasses import Collection, Text
-from refusal_benchmark.pipeline.handler import CollectionHandler
-from refusal_benchmark.utils import with_deepcopy_of_collection
+from dataclass.collections_dataclasses import Collection, Text
+from pipeline.handler import CollectionHandler
+from utils import with_deepcopy_of_collection
 from transformers import PreTrainedTokenizer
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
